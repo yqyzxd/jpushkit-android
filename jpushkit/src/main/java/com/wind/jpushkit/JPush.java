@@ -69,7 +69,7 @@ public class JPush {
         if (intent.getExtras() != null) {
             data = intent.getExtras().getString("sessionID");
 
-            Log.d(TAG, "Netease msg content is " + data);
+            //Log.d(TAG, "Netease msg content is " + data);
         }
 
         if (TextUtils.isEmpty(data)) {
