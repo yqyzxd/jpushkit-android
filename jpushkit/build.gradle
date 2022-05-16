@@ -25,10 +25,9 @@ android {
 
 dependencies {
     api fileTree(dir: 'libs', include: ['*.jar'])
-   /* compile 'cn.jiguang.sdk:jpush:3.3.9'  // 此处以JPush 3.3.9 版本为例。
-    compile 'cn.jiguang.sdk:jcore:2.1.6'  // 此处以JCore 2.1.6 版本为例。*/
-    api 'cn.jiguang.sdk:jpush:4.0.6'  // 此处以JPush 3.8.6 版本为例。
-    api 'cn.jiguang.sdk:jcore:2.8.2'  // 此处以JCore 2.7.6 版本为例。
+
+    api 'cn.jiguang.sdk:jpush:4.6.6'  // 此处以JPush 3.8.6 版本为例。
+    api 'cn.jiguang.sdk:jcore:3.2.4'  // 此处以JCore 2.7.6 版本为例。
 
     //api 'cn.jiguang.sdk.plugin:xiaomi:3.6.0'//版本号和对应的JPush版本号相同
 
