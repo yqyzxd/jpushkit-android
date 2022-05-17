@@ -29,8 +29,7 @@ dependencies {
     api 'cn.jiguang.sdk:jpush:4.6.6'  // 此处以JPush 3.8.6 版本为例。
     api 'cn.jiguang.sdk:jcore:3.2.4'  // 此处以JCore 2.7.6 版本为例。
 
-    //api 'cn.jiguang.sdk.plugin:xiaomi:3.6.0'//版本号和对应的JPush版本号相同
-
+    api 'cn.jiguang.sdk.plugin:huawei:4.6.6'
 
     implementation 'com.alibaba:arouter-api:1.5.1'
 
