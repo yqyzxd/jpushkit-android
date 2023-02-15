@@ -47,17 +47,21 @@
                 <!--Required  显示通知栏 -->
                 <category android:name="${applicationId}" />
             </intent-filter>
+            <!-- 移除自启动相关
             <intent-filter>
                 <action android:name="android.intent.action.USER_PRESENT" />
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
             </intent-filter>
-            <!-- Optional -->
+
+
             <intent-filter>
                 <action android:name="android.intent.action.PACKAGE_ADDED" />
                 <action android:name="android.intent.action.PACKAGE_REMOVED" />
 
                 <data android:scheme="package" />
             </intent-filter>
+
+            -->
         </receiver>
 
 
